@@ -1,6 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://wr3ah6xfye3b"]
-
-[ext_resource type="PackedScene" uid="uid://c54n4vmho5etd" path="res://celula.tscn" id="1_imuol"]
+[gd_scene load_steps=3 format=3 uid="uid://wr3ah6xfye3b"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5488v"]
 bg_color = Color(0.0196078, 0, 0.168627, 1)
@@ -32,33 +30,6 @@ offset_bottom = 40.0
 theme_override_constants/h_separation = 0
 theme_override_constants/v_separation = 0
 columns = 3
-
-[node name="Celula" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula2" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula3" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula4" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula5" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula6" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula7" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula8" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
-
-[node name="Celula9" parent="Celulas" instance=ExtResource("1_imuol")]
-layout_mode = 2
 
 [node name="BtnReiniciar" type="Button" parent="."]
 layout_mode = 1
